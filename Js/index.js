@@ -2,7 +2,7 @@ let slider = document.querySelector(".slider_container")
 let sliderPagina = document.querySelectorAll(".contenido_slider")
 let contador = 1;
 let width = sliderPagina[0].clientWidth;
-let intervalo = 6000;
+let intervalo = 3000;
 
 window.addEventListener("resize", function(){
     width = sliderPagina[0].clientWidth;
@@ -26,3 +26,4 @@ function slides () {
         }, 1500)
     }
 }
+

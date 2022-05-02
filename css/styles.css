@@ -8,6 +8,15 @@
 main{
     overflow:hidden;
 }
+
+/* .english{
+    display: none;
+}
+
+#english_footer{
+    display: none;
+} */
+
 .slider_container{
     width: 100%;
     display: flex;
@@ -21,6 +30,7 @@ main{
 .img_home{
     position: absolute;
     width: 100%;
+    /* height: 975px; */
 }
 
 .botones_header{
@@ -120,16 +130,125 @@ ul{
     color: #373737;
 }
 
-.boton_idioma{
+.menu_lateral__right{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 905px;
+    
+ }
+
+.li_lateralRight_1{
+    background-color: #373737;
+    width: 445px;
+    height: 66px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #F5F5F5;
+    border-right: none;
+    line-height: 66px;
+    text-align: left;
+    padding: 0 20px; 
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.li_lateralRight{
+    background-color: #E5DACE;
+    width: 340px;
+    height: 66px;
+    margin: 15px 0;
+    border-radius: 10px 0 0 10px;
+    line-height: 66px;
+    text-align: left;
+    padding: 0 20px; 
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #373737;
+    margin-left: 105px;
+}
+
+.btn_idioma{
     position: relative;
-    margin-top: 200px;
-    margin-bottom: 20px;
-    left: 1100px;
-    border-radius: 44px;
-    padding: 6px;
-    border: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 110px;
+}
+
+.idioma_btn{
     width: 200px;
     height: 52px;
+    border-radius: 44px;
+    border: none;
+    margin-top: 80px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.idioma_btn ::after {
+    content: '';
+    display: block;
+    background-color: #E7BAA0;
+    width: 100px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: unset;
+    transition: .3s ease all;
+}
+
+.active ::after{
+    right: 0;
+    left: unset;
+}
+
+.btn-español_ingles{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.idioma_btn__2{
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
+    border: none;
+    margin-top: 540px;
+    margin-right: 20px;
+}
+
+.idioma_btn__3{
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
+    border: none;
+    margin-top: 160px;
+    margin-right: 20px;
+}
+
+.idioma_btn__4{
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
+    border: none;
+    margin-top: 540px;
+    margin-right: 20px;
+}
+
+.idioma_btn__5{
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -140,6 +259,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
+   
 }
 
 .info_footer{
@@ -185,3 +305,4 @@ p{
 .estilo_talento{
     margin-top: 15px;
 }
+
