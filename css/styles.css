@@ -6,16 +6,24 @@
 }
 
 main{
-    overflow:hidden;
+    overflow: hidden;
 }
 
-/* .english{
+.spanish{
+    display:block;
+}
+
+.english{
     display: none;
 }
 
-#english_footer{
+.spanish_footer{
+    display: block;
+}
+
+.english_footer{
     display: none;
-} */
+}
 
 .slider_container{
     width: 100%;
@@ -93,7 +101,7 @@ main{
 
 .menu_lateral{
     position: relative;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 ul{
@@ -132,7 +140,7 @@ ul{
 
 .menu_lateral__right{
     position: absolute;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 905px;
     
  }
@@ -171,48 +179,67 @@ ul{
     position: relative;
     display: flex;
     justify-content: right;
-    margin-top: 110px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-right: 30px;
 }
 
 .idioma_btn{
-    width: 200px;
+    background-color: #E7BAA0;
+    width: 80px;
     height: 52px;
     border-radius: 44px;
     border: none;
     margin-top: 80px;
-    margin-right: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     position: relative;
 }
 
-.idioma_btn ::after {
+/* .idioma_btn ::after {
     content: '';
     display: block;
     background-color: #E7BAA0;
-    width: 100px;
-    height: 32px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 40px;
+    width: 48px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 14px;
+    border-radius: 100px;
     position: absolute;
     top: 0;
     left: 0;
     right: unset;
     transition: .3s ease all;
+    opacity: 0.4;
 }
 
 .active ::after{
     right: 0;
     left: unset;
+} */
+
+.btn_spanish{
+    width: 74px;
+    height: 42px;
+    transition: 0.3s;
+    background: none;
 }
 
-.btn-español_ingles{
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: bold;
+.btn_spanish:hover{
+    transform: scale(1.2);
+}
+
+.btn_english{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    
+}
+
+.btn_english:hover{
+    transform: scale(1.2);
 }
 
 .idioma_btn__2{
@@ -253,7 +280,7 @@ ul{
 
 .footer{
     background-color: #373737;
-    height: 182px;
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: space-around;
