@@ -37,16 +37,3 @@ botonIngles.addEventListener('click', () =>{
     checkLanguage()
 
 })
-
-
-
-// const botonMenu = document.getElementsByClassName("boton")
-// const menu = document.getElementsByClassName('navbarList')
-
-// for (boton of botonMenu){
-//     boton.addEventListener('click', () => {
-//         for(let i=0;i<menu.length;i++){
-//             menu[i].classList.toggle('menu_visible')
-//         }
-//     })
-// }

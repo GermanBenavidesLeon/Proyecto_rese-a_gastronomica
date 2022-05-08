@@ -30,7 +30,17 @@ main{
     display: flex;
 }
 
+.slider_container__eng{
+    width: 100%;
+    display: flex;
+}
+
 .contenido_slider{
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.contenido_slider__eng{
     width: 100%;
     flex-shrink: 0;
 }
