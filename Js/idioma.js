@@ -12,8 +12,6 @@ function setSliders(){
         window.addEventListener("resize", function(){
             width = sliderPagina[0].clientWidth;
         })
-        
-        
     
         function slides () {
             slider.style.transform = "translate("+(-width*contador)+"px)";
@@ -44,9 +42,6 @@ function setSliders(){
         window.addEventListener("resize", function(){
             width = sliderPagina[0].clientWidth;
         })
-        
-        
-        
     
         function slides () {
             slider.style.transform = "translate("+(-width*contador)+"px)";
