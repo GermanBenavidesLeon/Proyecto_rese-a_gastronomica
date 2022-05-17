@@ -51,8 +51,6 @@ main{
 .img_home{
     position: absolute;
     width: 100%;
-    top: 0;
-    /* height: 975px; */
 }
 
 .botones_header{
