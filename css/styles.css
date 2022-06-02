@@ -9,49 +9,26 @@ main{
     overflow: hidden;
 }
 
-.spanish{
-    display:block;
-}
-
-.english{
-    display: none;
-}
-
-.spanish_footer{
-    display: block;
-}
-
-.english_footer{
-    display: none;
-}
-
 .slider_container{
     width: 100%;
-    height: 100%;
     display: flex;
-    
-}
-
-.slider_container__eng{
-    width: 100%;
-    height: 100%;
-    display: flex;
+    margin-bottom: 180px;
 }
 
 .contenido_slider{
     width: 100%;
-    flex-shrink: 0;
-}
-
-.contenido_slider__eng{
-    width: 100%;
+    height: auto;
     flex-shrink: 0;
 }
 
 .img_home{
     position: absolute;
     width: 100%;
+    height: auto;
 }
+
+
+/* TITULO Y BOTON DE CONTACTO */
 
 .botones_header{
     width: 100%;
@@ -113,9 +90,12 @@ main{
     line-height: 50px;
 }
 
+
+/* TITULOS LATERALES */
+
 .menu_lateral{
     position: relative;
-    margin-top: 220px;
+    margin-top: 280px;
 }
 
 ul{
@@ -154,9 +134,8 @@ ul{
 
 .menu_lateral__right{
     position: absolute;
-    margin-top: 220px;
+    margin-top: 280px;
     margin-left: 68%;
-    
  }
 
 .li_lateralRight_1{
@@ -189,86 +168,8 @@ ul{
     margin-left: 105px;
 }
 
-.btn_idioma{
-    position: relative;
-    display: flex;
-    justify-content: right;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    padding-right: 30px;
-}
 
-.idioma_btn{
-    background-color: #E7BAA0;
-    width: 80px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-}
-
-.btn_spanish{
-    width: 74px;
-    height: 42px;
-    transition: 0.3s;
-    background: none;
-}
-
-.btn_spanish:hover{
-    transform: scale(1.2);
-}
-
-.btn_english{
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    
-}
-
-.btn_english:hover{
-    transform: scale(1.2);
-}
-
-.idioma_btn__2{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 540px;
-    margin-right: 20px;
-}
-
-.idioma_btn__3{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 160px;
-    margin-right: 20px;
-}
-
-.idioma_btn__4{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 540px;
-    margin-right: 20px;
-}
-
-.idioma_btn__5{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
+/* FOOTER */
 
 .footer{
     background-color: #373737;
@@ -278,7 +179,6 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
-   
 }
 
 .info_footer{
@@ -306,7 +206,6 @@ h4{
     font-family: 'Roboto';
     color: #E7BAA0;
     font-size: 14px
-
 }
 
 p{
